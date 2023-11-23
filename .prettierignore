@@ -1,0 +1,11 @@
+# Git 子模块
+submodule
+
+# Node 模块
+node_modules
+
+# 构建结果
+/project/*/db.json
+/project/*/build
+/project/*/themes/*/source
+

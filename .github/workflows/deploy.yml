@@ -1,0 +1,39 @@
+name: deploy
+
+on:
+    push:
+        branches: ["main"]
+
+permissions:
+    pages: write
+    id-token: write
+
+jobs:
+    Build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 迁出文件
+              uses: actions/checkout@v3
+
+            - name: 准备 Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.11"
+
+            - name: 准备 pipenv
+              run: pip install pipenv
+
+            - name: 初始化部署环境
+              run: pipenv install
+
+            - name: 构建项目
+              run: pipenv build
+
+            - name: 上传构建结果
+              uses: actions/upload-pages-artifact@v2
+              with:
+                  path: "build"
+
+            - name: 部署到 Github 页面
+              id: deployment
+              uses: actions/deploy-pages@v2

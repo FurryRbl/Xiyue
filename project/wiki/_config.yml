@@ -1,0 +1,113 @@
+# 网站
+title: "茜悦Wiki"
+subtitle: ""
+description: "茜悦站点"
+keywords: Xiyue,SharpIce,Furry,Worldview,OC,设定,茜悦,锐冰,锐冰龙,世界观
+author: SharpIce
+language: zh-CN
+timezone: "Asia/Shanghai"
+
+# 网址
+url: https://Xiyue.SharpIce.top/wiki
+root: "/wiki"
+permalink: "/:title/"
+permalink_defaults:
+pretty_urls:
+    trailing_index: false
+    trailing_html: false
+
+# 目录
+source_dir: public
+public_dir: build
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 文章
+new_post_name: :title.md
+default_layout: post
+auto_spacing: true
+titlecase: false
+external_link:
+    enable: true
+    field: site
+    exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+    enable: false
+    line_number: true
+    auto_detect: false
+    tab_replace: ""
+    wrap: true
+    hljs: false
+prismjs:
+    enable: true
+    preprocess: true
+    line_number: true
+    line_threshold: 0
+    tab_replace: ""
+
+# 分类 & 标签
+default_category: 未分类
+category_map:
+tag_map:
+
+# 日期 / 时间格式
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: "mtime"
+
+# 分页
+per_page: 10
+pagination_dir: page
+
+# 扩展
+theme: XiyueWiki
+theme_config:
+deploy:
+    type: ""
+meta_generator: true
+
+# 包括或不包括目录和文件
+include:
+exclude:
+ignore:
+
+########## 插件 ##########
+
+# 搜索
+search:
+    path: search.xml
+    field: all
+    content: true
+
+# hexo-browsersync
+browsersync:
+    ui: false
+
+# 站点地图
+sitemap:
+    path:
+        - sitemap.xml
+    rel: true
+    tags: true
+    categories: true
+
+# feed
+feed:
+    enable: true
+    type: atom
+    path: atom.xml
+    limit: 256
+    content_limit: 140
+    content_limit_delim: " "
+    order_by: -date
+    icon: /wiki/favicon.ico
+    autodiscovery: true

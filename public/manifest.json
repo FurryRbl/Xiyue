@@ -1,0 +1,23 @@
+{
+	"name": "茜悦",
+	"short_name": "茜悦",
+	"description": "SharpIce 的个人世界观内容站点",
+	"start_url": "/",
+	"lang": "zh-CN",
+	"display": "standalone",
+	"theme_color": "#ffffff",
+	"background_color": "#64a2fd",
+	"icons": [
+		{
+			"src": "/favicon.ico",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "/favicon.png",
+			"sizes": "800x800",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"files.associations": {
+		"tailwind.css": "tailwindcss"
+	},
+	"material-icon-theme.folders.associations": {
+		"Wiki": "docs",
+		"Book": "docs",
+		"submodule": "Git",
+		"Xiyue-Article": "docs"
+	},
+	"material-icon-theme.files.associations": {
+		"rollup.config.build.js": "rollup"
+	}
+}

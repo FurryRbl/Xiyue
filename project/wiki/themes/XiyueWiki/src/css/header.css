@@ -1,0 +1,15 @@
+.header {
+	background-color: var(--xiyue-common-blue);
+}
+
+header {
+	background-color: var(--xiyue-common-blue);
+}
+
+header nav {
+	height: 3.5rem;
+}
+
+header nav a img {
+	height: 2.6rem;
+}

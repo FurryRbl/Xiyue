@@ -1,0 +1,26 @@
+version: 2
+updates:
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+          interval: "weekly"
+
+    - package-ecosystem: "npm"
+      directory: "/project/Wiki"
+      schedule:
+          interval: "weekly"
+
+    - package-ecosystem: "npm"
+      directory: "/project/Book"
+      schedule:
+          interval: "weekly"
+
+    - package-ecosystem: "github-actions"
+      directory: "/.github/workflows/"
+      schedule:
+          interval: "weekly"
+
+    - package-ecosystem: "gitsubmodule"
+      directory: "/submodule/"
+      schedule:
+          interval: "daily"

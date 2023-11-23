@@ -1,0 +1,64 @@
+{
+	"name": "xiyue",
+	"version": "1.0.0",
+	"description": "茜悦站点",
+	"type": "module",
+	"license": "MPL-2.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FurryRbl/Xiyue.git"
+	},
+	"homepage": "https://Xiyue.SharpIce.top",
+	"bugs": {
+		"url": "https://github.com/FurryRbl/Xiyue/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"email": "VupRbl@163.com",
+		"url": "https://SharpIce.top"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint . --fix",
+		"pre": "prettier --plugin=prettier-plugin-ejs --write .",
+		"clean": "rimraf build/ node_modules/.vite/ yarn-error.log src/dev-dist"
+	},
+	"workspaces": [
+		"project/wiki",
+		"project/book",
+		"project/common",
+		"project/wiki/themes/XiyueWiki"
+	],
+	"devDependencies": {
+		"@headlessui/vue": "^1.7.16",
+		"@vitejs/plugin-vue": "^4.3.4",
+		"@vue/compiler-sfc": "^3.3.4",
+		"autoprefixer": "^10.4.15",
+		"ejs": "^3.1.9",
+		"eslint": "^8.48.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"fs-extra": "^11.1.1",
+		"postcss": "^8.4.29",
+		"postcss-import": "^15.1.0",
+		"prettier": "^3.0.2",
+		"prettier-plugin-ejs": "^0.0.18",
+		"prettier-plugin-tailwindcss": "^0.5.4",
+		"rimraf": "^5.0.1",
+		"tailwindcss": "^3.3.3",
+		"vite": "5.0.2",
+		"vite-plugin-compression2": "0.11.0"
+	},
+	"dependencies": {
+		"hexo": "7.0.0",
+		"hexo-renderer-stylus": "3.0.0",
+		"jquery": "~3.7.1",
+		"material-icons": "~1.13.12",
+		"vue": "^3.3.4"
+	}
+}

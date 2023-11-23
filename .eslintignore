@@ -1,0 +1,8 @@
+# Node模块
+node_modules
+
+# 构建输出文件夹
+/build/
+
+# Git 子模块
+/submodule
