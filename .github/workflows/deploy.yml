@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: 迁出文件
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: 准备 Python
               uses: actions/setup-python@v4
