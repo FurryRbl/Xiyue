@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"overlayscrollbars": "^2.4.4",
-		"tailwindcss": "^3.3.3"
+		"tailwindcss": "^3.3.7"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.23.2",
