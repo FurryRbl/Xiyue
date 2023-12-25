@@ -36,4 +36,4 @@ jobs:
 
             - name: 部署到 Github 页面
               id: deployment
-              uses: actions/deploy-pages@v2
+              uses: actions/deploy-pages@v4
