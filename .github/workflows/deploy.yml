@@ -30,7 +30,7 @@ jobs:
               run: pipenv build
 
             - name: 上传构建结果
-              uses: actions/upload-pages-artifact@v2
+              uses: actions/upload-pages-artifact@v3
               with:
                   path: "build"
 
