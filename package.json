@@ -59,6 +59,6 @@
 		"hexo-renderer-stylus": "3.0.0",
 		"jquery": "~3.7.1",
 		"material-icons": "~1.13.12",
-		"vue": "^3.3.4"
+		"vue": "^3.4.3"
 	}
 }
